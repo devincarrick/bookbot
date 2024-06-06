@@ -9,7 +9,9 @@ def main():
 
 # helper function to get the text from a file
 def get_text(path):
+    # with block opens a file
     with open(path) as f:
+        # read contents of file into a string
         return f.read()
     
 # Call the main function
